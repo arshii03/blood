@@ -1,0 +1,182 @@
+ 
+
+.main {
+    display: flex;
+    max-width: 98vw;
+    width: 100vw;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-left: 0;
+    
+   
+}
+.imgg{
+    height: 140%;
+    width: 37vw;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.image-section {
+    flex: 1;
+    height: auto;
+    height: 100vh;
+    
+
+  
+   
+    background-size: cover;
+}
+
+.form-section {
+    flex: 1.5;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sgn {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fo{
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.column:first-child {
+    margin-left: 0;
+}
+
+.column:last-child {
+    margin-right: 0;
+}
+
+.lb {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.in[type="text"],
+.in[type="password"],
+.in[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid red;
+    border-radius: 4px;
+    outline: none;
+   
+}
+
+.checkbox-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.checkbox-row input {
+    margin-right: 10px;
+}
+
+.checkbox-row a {
+    color: red;
+    text-decoration: none;
+}
+
+.checkbox-row a:hover {
+    text-decoration: underline;
+}
+
+.create-account {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.create-account:hover {
+    background-color: darkred;
+}
+
+.alternative-signup {
+    text-align: center;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+}
+
+.separator::before {
+    margin-right: .25em;
+}
+
+.separator::after {
+    margin-left: .25em;
+}
+
+.separator span {
+    color: #888;
+}
+
+.google-signup,
+.facebook-signup {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.google-signup {
+    
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 24px 24px;
+    padding-left: 40px;
+}
+
+.facebook-signup {
+   
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 24px 24px;
+    padding-left: 40px;
+}
+.link a{
+    display: flex;
+    flex-direction: column;
+   text-decoration: none;
+   color: black;
+}
+
+

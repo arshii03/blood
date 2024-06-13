@@ -1,0 +1,30 @@
+.img{
+    width: 100%;
+    height: 100%;
+}
+.textarea{
+    font-weight: 700;
+    
+}
+.d{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+
+}
+.s{
+    width: 40vw;
+    border: 1px solid red;
+    padding: 10px 0px 10px 0px;
+   
+}
+@media (max-width:430px) {
+    .s{
+        width: 100%;
+    }
+    .search{
+        width: 45%;
+    }
+    
+}
